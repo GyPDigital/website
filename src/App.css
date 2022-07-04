@@ -1,0 +1,165 @@
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./fonts/Poppins-Bold-700.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Peaches-and-cream';
+  src: url('./fonts/Peaches-and-Cream-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir-light.woff') format('woff');
+  font-style: normal;
+  font-weight: 200;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  min-width: 320px;
+  background-image: url("./imgs/fondo-gyp-lc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.container-wrap{
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+/********************************************* shooping cart *************************************************/
+/************************************* shooping cart / containers *********************************************/
+
+.cart-container{
+	  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-title{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: rgb(111, 2, 63);
+}
+
+.cart-btn-container{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/***************************************** shooping cart / table **************************************************/
+
+.cart-table{
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.cart-table > tbody > tr{
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.cart-table > tbody > tr > td{
+    width: auto;
+}
+
+.shooping-cart-item-img{
+    width: 70px;
+    height: auto;
+}
+
+.row-total{
+  height: 70px;
+}
+
+.btn-delete-cart-item{
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.btn-delete-cart-item:hover{
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+}
+
+.btn-delete-cart-item:active{
+    opacity: 0.5;
+}
+
+/************************************************ shooping cart / buttons *****************************************/
+
+.btn-shopping-cart{
+    width: auto;
+    height: 50px;
+    text-align: center;
+    font-size: medium;
+    margin: 10px;
+    padding: 0 15px;
+    background-color: rgb(111, 2, 63);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-shopping-cart:hover{
+    background-color: rgb(85, 7, 51);
+    cursor: pointer;
+}
+
+.btn-shopping-cart:active{
+    background-color: rgb(56, 1, 32);
+    cursor: pointer;
+}
+
+/******************************************************************************************************************/
+
+@media all and (max-width: 824px){
+  .welcome{ height: 250px;}
+}
+
+@media all and (max-width: 467px){
+  .welcome{ height: 300px;}
+}
+@media all and (max-width: 408px){
+  .welcome{ height: 350px;}
+}

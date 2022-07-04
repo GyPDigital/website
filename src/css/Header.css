@@ -1,0 +1,22 @@
+/*************************************************************************************************
+ * Hoja de estilos para el componente Header
+ *************************************************************************************************/
+
+.container-header{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-header > img{
+    width: 100%;
+    height: auto;
+}
+
+@media all and (max-width: 850px){
+    .container-header > img{ width: 180%;}
+}
