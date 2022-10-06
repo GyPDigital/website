@@ -1,5 +1,5 @@
 {
-  "homepage": "https://gypinformaticaytecnologia.github.io/GyPWebsite/",
+  "homepage": "https://gypdigital.github.io/website/",
   "name": "gypinformaticaytecnologia",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +39,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^2.1.3"
   }
 }
